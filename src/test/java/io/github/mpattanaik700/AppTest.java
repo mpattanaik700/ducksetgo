@@ -1,4 +1,4 @@
-package org.manoj.app;
+package io.github.mpattanaik700;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
