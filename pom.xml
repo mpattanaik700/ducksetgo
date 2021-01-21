@@ -1,12 +1,37 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.manoj.app</groupId>
+  <groupId>io.github.mpattanaik700</groupId>
   <artifactId>ducksetgo</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
+  
   <name>ducksetgo</name>
-  <url>http://maven.apache.org</url>
+  <description>Library provides helloworld service</description>
+  <url>https://github.com/mpattanaik700/ducksetgo</url>
+  
+  <licenses>
+  <license>
+    <name>MIT License</name>
+    <url>http://www.opensource.org/licenses/mit-license.php</url>
+  </license>
+</licenses>
+
+<developers>
+    <developer>
+      <name>Manoja kumar</name>
+      <email>mpattanaik700@gmail.com</email>
+      <organization>Ducksetgo</organization>
+      <organizationUrl>https://github.com/mpattanaik700/ducksetgo</organizationUrl>
+    </developer>
+  </developers>
+  
+  <scm>
+  <connection>scm:git:git://github.com/mpattanaik700/ducksetgo.git</connection>
+  <developerConnection>scm:git:ssh://github.com:mpattanaik700/ducksetgo.git</developerConnection>
+  <url>https://github.com/mpattanaik700/ducksetgo</url>
+</scm>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
